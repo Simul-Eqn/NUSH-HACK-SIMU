@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="368dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="21dp"
+        android:text="Why should we care about Climate Change?"
+        android:textAlignment="center"
+        android:textSize="33sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="     Climate change, as we all know, is a growing problem nowadays. However, why should we deal with it?  \n \n    1) For the world. We want to let life continue on. We are life, and we want to have life and meet life to be able to do things in life. For all the humans, animals, plants, bacteria, fungi, protists, everything in the world, we should protect this blue planet. For all we know, we might be the only life in the universe. Would it not be a pity, to have all life in the universe gone? \n\n    For our children, our children’s children, and on and on and on. When they see our efforts to improve their lives, will they not think “This is a good idea, we will work on this.” Eventually we can solve climate change, with enough effort put into it. It may be hard for you, but it is more than worth it, to at least try to solve climate change to inspire the next generation to do so, and so on. We can, and will, solve climate change or die trying. \n\n    Now we will move on to a concept called entropy. Over time, heat moves from hot places to cold places. Someday, all heat energy will be kind of wasted, because it heats up the coldest place, so the coldest place is not that cold anymore. This means the Bose-Einstein Condensates can’t exist anymore and, essentially, the heat energy is spread around the whole universe and you are unable to get it back. But life is odd. We like to do things the other way round. So maybe we can harness this and allow the universe to continue existing. Or else, someday, the universe cannot exist anymore. Everything has the same temperature and planets are split up into their atoms, each one outside, floating in outer space, not being able to meet another atom for eternity. It will be so lonely!\n\n   Let us work together to combat climate change, and then there shall be peace.  \n\n\n" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
